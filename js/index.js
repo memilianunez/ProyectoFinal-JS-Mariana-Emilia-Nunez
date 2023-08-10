@@ -89,7 +89,7 @@ arrayProductos.length > 0 ? cargaDeProductos(arrayProductos) : contenedor.innerH
 
 
 
-const URL = "j/productos.json"
+const URL = "js/productos.json"
 
 function obtenerProductos() {
     fetch (URL)
