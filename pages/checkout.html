@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../src/pelota.ico">
+    <title>Checkout - Solo Deportes</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="../js/productos.js"></script>
+    <script src="../js/index.js"></script>
+    <script defer src="../js/checkout.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="../index.html">
+                <h1>Todo <strong>deportes</strong></h1>
+            </a>
+        </div>
+    </header>
+
+    <main class="contenedor-checkout">
+        <div>
+            <h2 class="texto-carrito-compras">Carrito de <strong>compras</strong></h2>
+        </div>
+
+        <div class="tabla-checkout">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Nombre</th>
+                        <th>Importe</th>
+                        <th>Quitar</th>
+                    </tr>
+                </thead>
+
+                <tbody class="tablaProductos" id="tablaProductos"></tbody>
+            </table>
+
+            <div>
+                <span> <strong>Total:</strong> $</span>
+                <span id="precio-final">0</span>
+            </div>
+
+        </div>
+
+        
+
+            <div class="botones-checkout">
+                <div class="cargando" id="cargando"><div class="spinner"></div></div>
+                
+                <div>
+                    <a href="../index.html">
+                        <button class="seguir-comprando" id="seguir-comprando">Seguir comprando</button>
+                    </a>
+                </div>
+                <button class="realizar-compra" id="realizar-compra">Finalizar compra</button>
+            </div>
+
+
+    </main>
+
+    <footer>
+        <div>
+            <h3><strong>Alumna:</strong>Mariana Emilia Núñez <strong>Comisión:</strong>43130</h3>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
